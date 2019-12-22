@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mycloud-config  # 应用名称
+    name: mycloud-config-dev  # 应用名称
   cloud:
     config:
       server:
