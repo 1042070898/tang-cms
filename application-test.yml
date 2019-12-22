@@ -1,1 +1,13 @@
+spring:
+  application:
+    name: mycloud-config-test  # 应用名称
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/1042070898/tang-cms #配置文件所在仓库
+          username: 1042070898@qq.com
+          password: LIyujin19961015
+          default-label: master #配置文件分支
+          search-paths: config  #配置文件所在根目录
 
